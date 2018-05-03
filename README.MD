@@ -1,5 +1,5 @@
 # Keylogger
-### CS460 project
+### CS460 Project
 Beatriz Torreiro, Ignacio Díaz-Guardamino
 ## keylogger.ino
 This file is the arduino code in charge of injecting the keylogger file into the victim's windows machine.\
